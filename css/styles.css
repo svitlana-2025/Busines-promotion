@@ -13,18 +13,167 @@ a {
     text-decoration: none;
 }
 
+/*----------------header---------------*/
+
 .page-header {}
 
 .header-nav {}
 
-.logo {}
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+}
 
 .header-logo {}
 
 .nav-list {}
 
-.nav-link {}
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.list-bt-item {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+}
+
+/*-----------1 sektion--------------*/
 
 .header-bt {}
 
 .list-bt {}
+
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.page-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #22343d;
+}
+
+.started-bt {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.link-video {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+}
+
+/*---------------2 section--------------*/
+
+.title-product {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+}
+
+.list-product {}
+
+.item-product {}
+
+.title-list {
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343d;
+}
+
+.page-product {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+}
+
+.bt-up {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+/*----------------3 section-------------------*/
+
+.list-management {}
+
+.item-management {}
+
+.page-managment {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+}
+
+.title-management {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+}
+
+.title-management-three {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+
+.title-management-four {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+}
+
+/*------------------4 section-------------------*/
+
+
+.title-team {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+}
+
+.page-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: #22343d;
+}
+
+.list-team {}
+
+.item-team {}
+
+.page-team-coments {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #2f281e;
+}
+
+.team-bt {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
