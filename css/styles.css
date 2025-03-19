@@ -1,0 +1,30 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #22343d;
+    background-color: #fff;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {}
+
+.header-nav {}
+
+.logo {}
+
+.header-logo {}
+
+.nav-list {}
+
+.nav-link {}
+
+.header-bt {}
+
+.list-bt {}
