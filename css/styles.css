@@ -7,17 +7,56 @@ body {
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /*----------------header---------------*/
 
 .page-header {}
 
-.header-nav {}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     font-weight: 700;
@@ -26,15 +65,26 @@ a {
     color: #173a56;
 }
 
-.header-logo {}
+.header-logo {
+    padding: 22px 0;
+    margin-right: 237px;
+    display: flex;
+    gap: 16px;
+}
 
-.nav-list {}
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
 .nav-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.75;
     color: #22343d;
+    padding: 26px 0;
+    display: block;
 }
 
 .list-bt-item {
@@ -42,13 +92,24 @@ a {
     font-size: 16px;
     text-align: center;
     color: #173a56;
+    width: 105px;
+    height: 42px;
 }
+
+.header-bt {
+    display: flex;
+    align-items: center;
+    padding: 19px 0;
+    gap: 21px;
+    margin-left: 73px;
+
+}
+
+.list-bt {}
 
 /*-----------1 sektion--------------*/
 
-.header-bt {}
 
-.list-bt {}
 
 
 .title {
@@ -320,3 +381,76 @@ a {
 
 
 /*--------------------footer------------------------*/
+
+.page-footer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.51;
+    color: #fff;
+}
+
+.footer-bt {
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+}
+
+.footer-list {}
+
+.footer-item {}
+
+.footer-icon {}
+
+.footer-resources {}
+
+.footer-item-resources {}
+
+.title-resources {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.list-resources {}
+
+.item-resources {}
+
+.link-footer-resources {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.18;
+    color: #22343d;
+}
+
+.page-info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.text-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #02897a;
+}
+
+.form-number {}
+
+.footer-bt-info {}
+
+.text-info {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
