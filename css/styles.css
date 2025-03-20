@@ -61,7 +61,7 @@ a {
 .page-title {
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.56;
+    line-height: 1.6;
     color: #22343d;
 }
 
@@ -101,7 +101,7 @@ a {
 .page-product {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.62;
+    line-height: 1.6;
     color: #22343d;
 }
 
@@ -120,7 +120,7 @@ a {
 .page-managment {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.62;
+    line-height: 1.6;
     color: #22343d;
 }
 
@@ -139,7 +139,7 @@ a {
 .title-management-four {
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.62;
+    line-height: 1.6;
     color: #22343d;
 }
 
@@ -156,7 +156,7 @@ a {
 .page-team {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62;
+    line-height: 1.6;
     text-align: center;
     color: #22343d;
 }
@@ -177,3 +177,146 @@ a {
     font-size: 16px;
     color: #fff;
 }
+
+/*-------------------5 section------------------------*/
+
+.titel-content {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+
+.page-content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #22343d;
+}
+
+.list-content {}
+
+.item-content {}
+
+.page-time {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.datetime {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.title-time {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #22343d;
+}
+
+/*----------------------  6 section------------------------*/
+
+.title-price {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+
+.page-price {
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343d;
+}
+
+.list-price {}
+
+.item-price {}
+
+.title-price-free {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #22343d;
+}
+
+.page-price-free {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #22343d;
+}
+
+.list-price-free {}
+
+.item-price-free {}
+
+.page-price-table {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.37;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.price-bt {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+/*-----------------------7 section-------------------------*/
+
+.title-client {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.page-client {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #22343d;
+}
+
+.list-client {}
+
+.item-client {}
+
+.page-coments {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+}
+
+.title-designer {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.page-designer {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
+
+
+/*--------------------footer------------------------*/
