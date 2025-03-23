@@ -19,10 +19,17 @@ h5,
 h6,
 p {
     margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
 }
 
 img {
@@ -78,8 +85,6 @@ img {
     gap: 16px;
 }
 
-
-
 .nav-list {
     display: flex;
     align-items: center;
@@ -95,6 +100,8 @@ img {
     display: block;
 }
 
+.list-bt {}
+
 .list-bt-item {
     font-weight: 600;
     font-size: 16px;
@@ -102,6 +109,19 @@ img {
     color: #173a56;
     width: 105px;
     height: 42px;
+
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+}
+
+.sign-up {
+    width: 113px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    background: #02897a;
 }
 
 .header-bt {
