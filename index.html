@@ -24,7 +24,7 @@
     <header class="page-header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a class="logo header-logo" href="./index.html">
+          <a class="logo" href="./index.html">
             <img
               src="./images/logo.jpg"
               alt="Brend Logo"
@@ -34,7 +34,7 @@
           >
           <ul class="nav-list">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html"
+              <a class="nav-link active" href="./index.html"
                 ><b class="">Product</b></a
               >
             </li>
@@ -61,25 +61,22 @@
     </header>
     <main>
       <!------------------1 секція---------------------->
-      <section>
-        <div class="container container-start">
+      <section class="hero">
+        <div class="container">
           <div class="container-work">
             <h1 class="title">Work at the speed of thought</h1>
             <p class="page-title">
               Tools, tutorials, design and innovation experts, all in one place!
               The most intuitive way to imagine your next user experience.
             </p>
-            <div class="container-btn">
-            <button class="started-bt" type="button">Get started</button>
-            <a class="link-video" href=""
-              ><img class="img-link"
-                src="./images/Triangle Copy 6.jpg"
-                alt="triangle"
-                width="20"
-                height="18"
-              />Watch the video</a
-            >
-            </div>
+           <ul class="hero-list-btn">
+                        <li class="hero-list-item">
+                          <button type="button" class="hero-list-btn-get">Get started</button>
+                        </li>
+                        <li class="hero-list-item">
+                          <button type="button" class="hero-list-btn-watch">▶ Watch the Video</button>
+                        </li>
+                    </ul>
           </div>
           <div class="logo-img">
             <img
@@ -87,12 +84,13 @@
               alt="People logo"
               width="610"
               height="555"
+              class="hero-imegs"
             />
           </div>
         </div>
       </section>
       <!--------------------2 секція---------------------->
-      <section>
+      <section class="product">
         <div class="container container-product">
           <h2 class="title-product">Product was Built Specifically for You</h2>
           <ul class="list-product">
@@ -145,39 +143,36 @@
               </p>
             </li>
           </ul>
-          <button class="bt-up" type="button">SIGN UP NOW</button>
+          <button class="bt-up" type="button">Sing up</button>
         </div>
       </section>
       <!------------------------3 секція---------------------------->
-      <section>
+      <section class="management">
         <div class="container">
           <div class="container-laptop">
-          <div class="container-managment">
-          <ul class="list-management">
-            <li class="item-management">
-              <h2 class="title-management">Effortless Validation for</h2>
-              <h3 class="title-management-three">Management</h3>
-              <p class="page-managment">
+          <div class="container-management">
+              <h3 class="title-management">Effortless Validation for</h3>
+              <h2 class="title-management-two">Management</h2>
+              <p class="page-managment top-item">
                 The Myspace page defines the individual, his or her
                 characteristics, traits, personal choices and the overall
                 personality of the person.
               </p>
               <ul class="list-management">
                 <li class="item-management">
-                  <h4 class="title-management-four">Accessory makers</h4>
+                  <h3 class="title-management-three">Accessory makers</h3>
                   <p class="page-managment">
                     While most people enjoy casino gambling, sports betting,
                     lottery and bingo playing for the fun
                   </p>
                 </li>
                 <li class="item-management">
-                  <h4 class="title-management-four">Alterationists</h4>
+                  <h3 class="title-management-three">Alterationists</h3>
                   <p class="page-managment">
                     If you are looking for a new way to promote your business
                     that won’t cost you more money,
                   </p>
                   </li>
-            </li>
             </ul>
             </div>
             <div class="container-img">
@@ -189,19 +184,21 @@
                   />
                   </div>
                   </div>
-                <div class="container-support">
-              <div class="container-img1">
+                  </section>
+                  <!--------------------section 4 ------------------->
+                  <section class="customer-support">
+                <div class="container container-support">
               <img
                 src="./images/support-img.jpg"
                 alt="Laptop"
                 width="540"
                 height="500"
+                class="support-images"
               />
-                  </div>
                   <div class="container-laptop1">
-              <p class="page-managment">Easier decision making for</p>
-              <h3 class="title-management-three">Customer Support</h3>
-              <p>
+              <h3 class="title-management3">Easier decision making for</h3>
+              <h2 class="title-management2">Customer Support</h2>
+              <p class="page-managment-support">
                 The Myspace page defines the individual, his or her
                 characteristics, traits, personal choices and the overall
                 personality of the person.
@@ -213,8 +210,9 @@
                     alt="Orange Icon"
                     height="35"
                     width="35"
+                    class="support-icon"
                   />
-                  <p class="page-managment">
+                  <p class="page-managment-support1">
                     Never worry about overpaying for your energy again.
                   </p>
                 </li>
@@ -224,8 +222,9 @@
                     alt="Red Icon"
                     height="35"
                     width="35"
+                    class="support-icon"
                   />
-                  <p class="page-managment">
+                  <p class="page-managment-support1">
                     We will only switch you to energy companies that we trust
                     and will treat you right
                   </p>
@@ -236,44 +235,43 @@
                     alt="Blue Icon"
                     height="35"
                     width="35"
+                    class="support-icon"
                   />
-                  <p class="page-managment">
+                  <p class="page-managment-support1">
                     We track the markets daily and know where the savings are.
                   </p>
                 </li>
               </ul>
             </div>
             </div>
-            <div class="container-folders">
+            </section>
+            <!------------sektion 5--------------------->
+            <section class="colaborative">
+            <div class="container container-folders">
               <div class="container-laptop2">
-                <ul class="list-item-manegement">
-            <li class="item-management">
-              <p class="page-managment">Optimisation for</p>
-              <h3 class="title-management-three">Collaborative</h3>
-              <p class="page-managment">
+              <h3 class="title-colaborative">Optimisation for</h3>
+              <h2 class="title-colaborative2">Collaborative</h2>
+              <p class="colaborative-page">
                 Few would argue that, despite the advancements of feminism over
                 the past three decades, women still face a double standard when
                 it comes to their behavior.
               </p>
               <ul class="list-management">
                 <li class="item-management">
-                  <h4 class="title-management-four">Accessory makers</h4>
-                  <p class="page-managment">
+                  <h3 class="title-management-colaborative">Accessory makers</h3>
+                  <p class="page-managment-colaborative">
                     While most people enjoy casino gambling, sports betting,
                     lottery and bingo playing for the fun
                   </p>
                 </li>
                 <li class="item-management">
-                  <h4 class="title-management-four">Alterationists</h4>
-                  <p class="page-managment">
+                  <h3 class="title-management-colaborative">Alterationists</h3>
+                  <p class="page-managment-colaborative">
                     If you are looking for a new way to promote your business
                     that won’t cost you more money,
                   </p>
                   </li>
-              </ul>
-            </li>
-          </ul>
-          </ul>
+                </ul>
         </div>
           <div class="container-img2">
                   <img
@@ -281,11 +279,13 @@
                     alt="Folders"
                     width="540"
                     height="500"
+                    class="coloborative-img"
                   />
                   </div>
         </div>
-      </section>
-      <!---------------------------4 секція------------------------------------->
+        </section>
+      
+      <!---------------------------6 секція------------------------------------->
       <section>
         <div class="container">
           <div class="container-team">
@@ -338,7 +338,7 @@
           </div>
         </div>
       </section>
-      <!---------------------------------5 секція----------------------------------->
+      <!---------------------------------7 секція----------------------------------->
       <section>
         <div class="container">
           <h2 class="titel-content">Contents Strategies</h2>
@@ -401,7 +401,7 @@
           </ul>
         </div>
       </section>
-      <!--------------------------------6 секція-------------------------------->
+      <!--------------------------------8 секція-------------------------------->
       <section>
         <div class="container">
           <h2 class="title-price">Price Table</h2>
@@ -482,7 +482,7 @@
           </ul>
         </div>
       </section>
-      <!------------------------------7 секція----------------------------->
+      <!------------------------------9 секція----------------------------->
       <section>
         <div class="container">
           <h2 class="title-client">What Clients Say</h2>
