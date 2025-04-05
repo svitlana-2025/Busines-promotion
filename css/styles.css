@@ -6,7 +6,7 @@ body {
 
 ul,
 ol {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,11 @@ p {
     padding: 0;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -34,7 +39,6 @@ button {
 
 img {
     display: block;
-    max-width: 100%;
     height: auto;
 }
 
@@ -671,18 +675,18 @@ img {
     justify-content: center;
     gap: 7px;
     margin-bottom: 16px;
+    text-align: left;
 }
 
 .pricing-img {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 76px;
-    line-height: 1.31579;
+    line-height: 1.32;
     letter-spacing: 0em;
     text-align: center;
     color: #02897a;
 }
-
 
 .price-div-one {
     padding-top: 16px;
@@ -705,9 +709,6 @@ img {
     letter-spacing: 0.01em;
     color: #afafaf;
 }
-
-.list-price-free {}
-
 
 .item-price-free {
     font-family: 'Montserrat', sans-serif;
@@ -768,17 +769,17 @@ img {
     justify-content: center;
     gap: 7px;
     margin-bottom: 16px;
+    text-align: left;
 }
 
 .pricing-img-dollar-center5 {
     margin-left: 84px;
     margin-right: auto;
+    color: #fff;
 }
 
 .price-div-center-img {
     padding-top: 16px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .pricing-img-dollar-center {
@@ -845,29 +846,56 @@ img {
 }
 
 .text-client {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.01em;
-    text-align: center;
     color: #22343d;
     max-width: 537px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
-.list-client {}
+.list-client {
+    display: flex;
+    gap: 64px;
+}
 
-.item-client {}
+.item-client {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 28px 0;
+    width: 327px;
+    height: 240px;
+}
 
-.page-coments {
+.stars-img {
+    max-width: 106px;
+    padding-left: 28px;
+    margin-bottom: 16px;
+}
+
+.text-group {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.01em;
     color: #737373;
+    padding-left: 26px;
+    margin-bottom: 16px
 }
 
-.title-designer {
+.container-client {
+    display: flex;
+    padding-left: 26px;
+}
+
+.group-img {
+    margin-right: 14px;
+}
+
+.linc-name {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -875,86 +903,231 @@ img {
     color: #02897a;
 }
 
-.page-designer {
+.text-name {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71429;
     letter-spacing: 0.01em;
     color: #252b42;
+}
+
+/*-----------------10 section-----------------*/
+
+.promo {
+    background: #fff;
+    width: 100vw;
+    padding: 100px 71px 0;
+}
+
+.promo-div {
+    display: flex;
+    border-radius: 32px;
+    width: 968px;
+    background: #02897a;
+    padding-left: 51px;
+    padding-right: 46px;
+}
+
+.promo-text {
+    display: block;
+    min-width: 510px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+    margin-top: 49px;
+    margin-bottom: 46px;
+}
+
+.promo-btn {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.ptomo-img {
+    margin-top: 4px;
+    margin-bottom: 10px;
 }
 
 
 /*--------------------footer------------------------*/
 
-.page-footer {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1.51;
-    color: #fff;
+.footer-container {
+    background: #fff;
+    padding-top: 100px;
 }
 
-.footer-bt {
-    font-weight: 600;
-    font-size: 20px;
-    color: #02897a;
+.footer-div {
+    display: block;
 }
 
-.footer-logo {
+.footer-div-one {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.footer-div-one-linc {
+    min-width: 178px;
+    margin-right: 146px;
+}
+
+.footer-linc-logo {
     font-weight: 700;
     font-size: 30px;
-    line-height: 0.93;
+    line-height: 0.93333;
     color: #173a56;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 18px
 }
 
-.footer-list {}
+.footer-list {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
 
-.footer-item {}
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #92bdb6;
+}
 
-.footer-icon {}
+.footer-svg {
+    stroke-width: 2px;
+    stroke: #02897a;
+    fill: none;
+}
 
-.footer-resources {}
+.footer-linc {
+    max-width: 118px;
+    margin-right: 129px;
+}
 
-.footer-item-resources {}
+.link-resours {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.1875;
+    color: #22343d;
+}
 
-.title-resources {
+.title-resours {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
     color: #22343d;
+    margin-bottom: 8px;
 }
 
-.list-resources {}
+.footer-item-contact {
+    display: flex;
+    flex-direction: column;
+}
 
-.item-resources {}
-
-.link-footer-resources {
+.footer-linc-contact {
     font-weight: 400;
     font-size: 16px;
-    line-height: 2.18;
+    line-height: 2.1875;
     color: #22343d;
 }
 
-.page-info {
+.footer-linc-pp {
+    min-width: 131px;
+    margin-right: 83px;
+}
+
+.legal-stuff-linc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.1875;
+    color: #22343d;
+}
+
+.title-legal-stuff {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
     color: #22343d;
+    margin-bottom: 8px;
 }
 
-.text-number {
+.item-pp {
+    display: flex;
+    flex-direction: column;
+}
+
+.linc-pp {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.75;
-    color: #02897a;
+    line-height: 2.1875;
+    color: #22343d;
 }
 
-.form-number {}
+.container-contact {
+    max-width: 325px;
+}
 
-.footer-bt-info {}
+.title-info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+    margin-bottom: 8px;
+}
 
-.text-info {
+.title-info-tel {
+    max-width: 280px;
+    margin-bottom: 30px;
+}
+
+.container-number-tel {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 12px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    width: 325px;
+    height: 48px;
+    background: #fff;
+    margin-bottom: 25px;
+}
+
+.tel-img {
+    max-height: 28px;
+    transform: scale(1);
+}
+
+.tel-input {
+    min-width: 240px;
+    border: none;
+}
+
+.sign-up-btn {
+    display: block;
+    width: 131px;
+    height: 39px;
     font-weight: 700;
     font-size: 16px;
     text-align: center;
     color: #fff;
+    border-radius: 4px;
+    background: #02897a;
+}
+
+.text-contact {
+    text-align: center;
+    font: 400 16px / 1.88 "Poppins", sans-serif;
+    color: #22343d;
 }
