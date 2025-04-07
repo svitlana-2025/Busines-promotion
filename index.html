@@ -62,7 +62,7 @@
     <main>
       <!------------------1 секція---------------------->
       <section class="hero">
-        <div class="container">
+        <div class="container hero-container">
           <div class="container-work">
             <h1 class="title">Work at the speed of thought</h1>
             <p class="page-title">
@@ -74,7 +74,11 @@
                           <button type="button" class="hero-list-btn-get">Get started</button>
                         </li>
                         <li class="hero-list-item">
-                          <button type="button" class="hero-list-btn-watch">▶ Watch the Video</button>
+                          <a href="#" class="icon-links">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use href="./images/icons.svg#icon-play"></use>
+                                    </svg>
+                                    Watch the video</a>
                         </li>
                     </ul>
           </div>
@@ -92,7 +96,11 @@
       <!--------------------2 секція---------------------->
       <section class="product">
         <div class="container container-product">
-          <h2 class="title-product">Product was Built Specifically <br/> for You</h2>
+          <div class="container-product-div">
+            <div class="product-title">
+          <h2 class="title-product">Product was Built Specifically <br />for You</h2>
+          </div>
+          <div class="product-list">
           <ul class="list-product">
             <li class="item-product">
               <img
@@ -143,34 +151,38 @@
               </p>
             </li>
           </ul>
-          <button class="bt-up" type="button">Sing up</button>
+          </div>
+          <div class="product-btn">
+          <button class="bt-up" type="button">SIGN UP NOW</button>
+          </div>
+          </div>
         </div>
       </section>
       <!------------------------3 секція---------------------------->
       <section class="management">
-        <div class="container">
+        <div class="container hero-container">
           <div class="container-laptop">
           <div class="container-management">
               <h3 class="title-management">Effortless Validation for</h3>
               <h2 class="title-management-two">Management</h2>
-              <p class="page-managment top-item">
+              <p class="page-managment">
                 The Myspace page defines the individual, his or her
                 characteristics, traits, personal choices and the overall
                 personality of the person.
               </p>
               <ul class="list-management">
                 <li class="item-management">
-                  <h3 class="title-management-three">Accessory makers</h3>
+                  <h3 class="title-management">Accessory makers</h3>
                   <p class="page-managment">
                     While most people enjoy casino gambling, sports betting,
                     lottery and bingo playing for the fun
                   </p>
                 </li>
                 <li class="item-management">
-                  <h3 class="title-management-three">Alterationists</h3>
+                  <h3 class="title-management">Alterationists</h3>
                   <p class="page-managment">
                     If you are looking for a new way to promote your business
-                    that won’t cost you more money,
+                    that won't cost you more money,
                   </p>
                   </li>
             </ul>
@@ -187,7 +199,9 @@
                   </section>
                   <!--------------------section 4 ------------------->
                   <section class="customer-support">
-                <div class="container container-support">
+                <div class="container hero-container">
+                  <div class="support-container">
+                  <div class="container-support-img">
               <img
                 src="./images/support-img.jpg"
                 alt="Laptop"
@@ -195,6 +209,7 @@
                 height="500"
                 class="support-images"
               />
+              </div>
                   <div class="container-laptop1">
               <h3 class="title-management3">Easier decision making for</h3>
               <h2 class="title-management2">Customer Support</h2>
@@ -244,10 +259,12 @@
               </ul>
             </div>
             </div>
+            </div>
             </section>
             <!------------sektion 5--------------------->
             <section class="colaborative">
-            <div class="container container-folders">
+            <div class="container hero-container">
+              <div class="container-colaborative">
               <div class="container-laptop2">
               <h3 class="title-colaborative">Optimisation for</h3>
               <h2 class="title-colaborative2">Collaborative</h2>
@@ -258,17 +275,17 @@
               </p>
               <ul class="list-management">
                 <li class="item-management">
-                  <h3 class="title-management-colaborative">Accessory makers</h3>
-                  <p class="page-managment-colaborative">
+                  <h3 class="title-colaborative">Accessory makers</h3>
+                  <p class="colaborative-page">
                     While most people enjoy casino gambling, sports betting,
                     lottery and bingo playing for the fun
                   </p>
                 </li>
                 <li class="item-management">
-                  <h3 class="title-management-colaborative">Alterationists</h3>
-                  <p class="page-managment-colaborative">
+                  <h3 class="title-colaborative">Alterationists</h3>
+                  <p class="colaborative-page">
                     If you are looking for a new way to promote your business
-                    that won’t cost you more money,
+                    that won't cost you more money,
                   </p>
                   </li>
                 </ul>
@@ -283,11 +300,12 @@
                   />
                   </div>
         </div>
+        </div>
         </section>
       
       <!---------------------------6 секція------------------------------------->
       <section class="team">
-        <div class="container">
+        <div class="container hero-container">
           <div class="container-team">
           <h2 class="title-team">Quick & Easy Process</h2>
           <p class="page-team">
@@ -314,9 +332,6 @@
                 width="98"
                 height="98"
               />
-              
-              
-              
             </li>
             <li class="item-team">
               <p class="page-team-coments">I can take care of your pitch</p>
@@ -345,12 +360,15 @@
       </section>
       <!---------------------------------7 секція----------------------------------->
       <section class="content-section">
-        <div class="container container-content">
+        <div class="container hero-container">
+          <div class="contact-container">
+            <div class="content-container">
           <h2 class="titel-content">Contents Strategies</h2>
           <p class="page-content">
             We focus on ergonomics and meeting you where you work. It's only a
             keystroke away.
           </p>
+          </div>
           <ul class="list-content">
             <li class="item-content">
                 <img
@@ -374,7 +392,7 @@
                   class="img-content"
                 />
                <p class="text-content">By Wahid Ari | 03 March 2019</p>
-                <h3 class="title-time">
+                <h3 class="title-time-about">
                   Motivation Is The First Step To Success
                 </h3>
             </li>
@@ -392,13 +410,17 @@
                 </h3>
             </li>
           </ul>
+          </div>
         </div>
       </section>
       <!--------------------------------8 секція-------------------------------->
       <section class="price-section">
-        <div class="container price-container">
+        <div class="container hero-container">
+          <div class="container-price">
+            <div class="price-title">
           <h2 class="title-price">Price Table</h2>
           <p class="page-price">We offer competitive price</p>
+          </div>
           <ul class="list-price">
             <li class="item-price">
                 <h3 class="title-price-free">Free</h3>
@@ -470,12 +492,14 @@
                 <button class="price-bt" type="button">Order now</button>
             </li>
           </ul>
+          </div>
         </div>
       </section>
       <!------------------------------9 секція----------------------------->
 
       <section class="client-section">
-        <div class="container client-container">
+        <div class="container hero-container">
+          <div class="client-container">
             <h2 class="title-client">What Clients Say</h2>
             <p class="text-client">Problems trying to resolve the conflict between
             the two major realms of Classical physics: Newtonian mechanics</p>
@@ -488,7 +512,7 @@
                     <div class="container-client">
                     <img class="group-img" src="./images/Ellipse.png" alt="Ellipse-woman" width="50" height="50" />
                     <div class="container-client-div">
-                    <a class="linc-name" href="#">Wahid Ari</a>
+                    <h4 class="linc-name">Wahid Ari</h4>
                     <p class="text-name">Designer</p>
                     </div>
                      </div>
@@ -501,7 +525,7 @@
                         <div class="container-client">
                     <img class="group-img" src="./images/Ellipse1.png" alt="Ellipse-yangmen" width="50" height="50" />
                     <div class="container-client-div">
-                    <a class="linc-name" href="#">Wahid Ari</a>
+                    <h4 class="linc-name">Wahid Ari</h4>
                     <p class="text-name">Designer</p>
                     </div>
                     </div>
@@ -514,29 +538,35 @@
                         <div class="container-client">
                     <img class="group-img" src="./images/Ellipse2.png" alt="Ellipse-men" width="50" height="50" />
                     <div class="container-client-div">
-                    <a class="linc-name" href="#">Wahid Ari</a>
+                    <h4 class="linc-name">Wahid Ari</h4>
                     <p class="text-name">Designer</p>
                     </div>
                     </div>
                 </li>
             </ul>
+            </div>
            </div>
         </section>
         <section class="promo">
-            <div class="promo-div">
+            <div class="container hero-container">
+              <div class="container-promo">
               <div class="promo-div-one">
                 <h2 class="promo-text">Join 100 Compannies who boost their business with Product</h2>
                 <button class="promo-btn" type="button">Get This</button>
             </div>
+            <div class="container-promo-img">
             <img class="ptomo-img" src="./images/screen.png" alt="graphics" width="351" height="331" />
+            </div>
+            </div>
             </div>
         </section>
     </main>
     <!------------------------Footer---------------------------->
 
-       <footer class="footer-container">
-        <div class="container footer-div">
+       <footer class="footer">
+        <div class="container footer-container">
           <div class="footer-div-one">
+            <nav class="footer-nav">
             <div class="footer-div-one-linc">
             <a class="footer-linc-logo" href="./index.html" class="logo">
               <img class="footer-logo-img" src="./images/logo.png" alt="logo" />Product</a>
@@ -559,9 +589,7 @@
             </ul>
         </div>
         <div class="footer-linc">
-            <a class="link-resours" href="#">
                 <h3 class="title-resours">Resource</h3>
-            </a>
             <ul class="list-link">
                 <li class="footer-item-contact"><a class="footer-linc-contact" href="#">About Us</a></li>
                 <li class="footer-item-contact"><a class="footer-linc-contact" href="#">Blog</a></li>
@@ -570,9 +598,7 @@
             </ul>
         </div>
         <div class="footer-linc-pp">
-            <a class="legal-stuff-linc" href="#">
               <h3 class="title-legal-stuff">Legal Stuff</h3>
-            </a>
             <ul class="list-pp">
                 <li class="item-pp"><a class="linc-pp" href="#">Disclaimer</a></li>
                 <li class="item-pp"><a class="linc-pp" href="#">Financing</a></li>
@@ -582,13 +608,16 @@
         <div class="container-contact">
                <h3 class="title-info title-info-tel">knowing you're always on the best energy deal.</h3>
             <div class="container-number-tel">
-                <img class="tel-img" src="./images/mobile-screen.png" alt="mobile screen" width="18" height="28" />
                 <input class="tel-input" type="tel" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-            </div>
             <button class="sign-up-btn" type="button">Sign up Now</button>
+            <img class="tel-img" src="./images/mobile-screen.png" alt="mobile screen" width="18" height="28" />
             </div>
-          </div>
+            </div>
+          </nav>
+          <div class="container-text">
             <p class="text-contact">Made With Love By Figmaland All Right Reserved</p>
+            </div>
+        </div>
         </div>
     </footer>
   </body>
