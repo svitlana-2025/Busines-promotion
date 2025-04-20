@@ -107,6 +107,13 @@ img {
     border-radius: 4px;
 }
 
+.list-bt-item:hover,
+.list-bt-item:focus {
+    background-color: #03947c;
+    color: #fff;
+    border: none;
+}
+
 .sign-up {
     border-radius: 4px;
     width: 113px;
@@ -116,6 +123,13 @@ img {
     font-weight: 600;
     font-size: 16px;
     color: #fff;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+    background-color: #aef7eb;
+    color: #181515;
+    border: none;
 }
 
 .header-bt {
@@ -184,6 +198,13 @@ img {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     text-decoration: none;
     margin-right: 30px;
+}
+
+.hero-list-btn-get:hover,
+.hero-list-btn-get:focus {
+    background-color: #131d1c;
+    color: #fff;
+    /* border: none; */
 }
 
 .icon-links {
@@ -286,6 +307,13 @@ img {
     border: 1px solid #bcd0e5;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bt-up:hover,
+.bt-up:focus {
+    background-color: #038071;
+    color: #fff;
+    border: none;
 }
 
 /*----------------3 section-------------------*/
@@ -520,6 +548,13 @@ img {
     font-size: 16px;
     color: #fff;
     margin: 50px auto 0 auto;
+}
+
+.team-bt:hover,
+.team-bt:focus {
+    background-color: #aef7eb;
+    color: #fff;
+    border: none;
 }
 
 /*-------------------7 section------------------------*/
@@ -944,6 +979,13 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.promo-btn:hover,
+.promo-btn:focus {
+    background-color: #001802;
+    color: #fff;
+    border: none;
+}
+
 .container-promo-img {
     display: flex;
     align-items: center;
@@ -1110,6 +1152,13 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.sign-up-btn:hover,
+.sign-up-btn:focus {
+    background-color: #027965;
+    color: #fff;
+    border: none;
+}
+
 .container-text {
     text-align: center;
     margin-top: 10px;
@@ -1195,6 +1244,13 @@ img {
     text-align: center;
     color: #173a56;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-plan:hover,
+.button-plan:focus {
+    background-color: #02897a;
+    color: #fff;
+    border: none;
 }
 
 /* ----product alongside section---- */
@@ -1574,6 +1630,14 @@ details[open] .icon.minus {
     height: 44px;
     background: #02897a;
 }
+
+.completion-btn:hover,
+.completion-btn:focus {
+    background-color: #d5f3f0;
+    color: #1b1717;
+    border: none;
+}
+
 
 /* --------------- GOIN THOUSAND------------------- */
 
