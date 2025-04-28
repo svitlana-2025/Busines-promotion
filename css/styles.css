@@ -139,6 +139,11 @@ img {
     align-items: center;
 }
 
+.dark-theme-icon {
+    width: 24px;
+    height: 24px;
+}
+
 /*-----------1 sektion--------------*/
 
 .container {
